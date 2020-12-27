@@ -570,6 +570,7 @@ AOS.init({
     $(window).scroll(function(){
     if ($(window).scrollTop() >= 100) {
         $('#header').addClass('navbar-fixed-top');
+        $('#header').addClass('width-80');
         $('#header').removeClass('container');
         $('nav div').addClass('visible-title');
         $('#header').addClass('pad-l-r-20');
@@ -578,6 +579,7 @@ AOS.init({
     }
     else {
         $('#header').removeClass('navbar-fixed-top');
+        $('#header').removeClass('width-80');
         $('nav div').removeClass('visible-title');
         $('#header').addClass('container');
         $('#header').removeClass('pad-l-r-20');

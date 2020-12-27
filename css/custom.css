@@ -198,6 +198,13 @@ body {
     position: relative; 
     top: -200px;
 }
+#sucess_stories .treatment-img{
+    width: 360px;
+    height: 375px;
+}
+/* .width-80 {
+    width: 80%;
+} */
 @media screen and (max-width: 767px) {
     .baner-align{
         display: flex;
