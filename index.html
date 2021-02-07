@@ -35,6 +35,7 @@
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
   <div class="sticky-btn hide" id="stickyBtn">
     <a type="button" class="view-more" data-toggle="modal" data-target="#exampleModal">Make Appointment</a>
   </div>
@@ -52,7 +53,6 @@
             <div class="col-sm-6 col-xs-12">
               <div class="hg-iconbox hg-iconbox--l20 floatR">
                 <div class="hg-iconbox__iconWrapper hg-iconbox__icon--left">
-                                     
                   <ion-icon name="call-outline" class="header-icon"></ion-icon>
                 </div><!--/.hg-iconbox__iconWrapper-->
                 <div class="hg-iconbox__contentWrapper">
@@ -108,17 +108,18 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#banner">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#gallery">Gallery</a></li>
+          <li class="active"><a href="#banner" id="nav-home">Home</a></li>
+          <li><a href="#about" id="nav-about">About</a></li>
+          <li><a href="#work" id="nav-work">Work</a></li>
+          <li><a href="#gallery" id="nav-gallery">Gallery</a></li>
           <!-- <li><a href="#testimonials">Testimonial</a></li> -->
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#contact" id="nav-contact">Contact Us</a></li>
         </ul>
       </div>
     </div>
   </nav>
 </div>
+<div id="main-content" class="">
 <div class="banner" id="banner">
   <div class="bg-overlay">
     <div class="container">
@@ -154,26 +155,16 @@
       </div>
       <div class="col-md-12">
         <div class="about-text">
-          <p>At Nuha Hospital you’ll receive the best care available, personalized for your specific needs. We believe in treating the whole person – not just the symptom – and ensuring that our approach is right for you and your lifestyle. We are guided by our mission to improve the health of our patients and community through innovation, and excellence in care, education, research and service. Together, we’re better and We encourage every patient to be engaged in care which helps improving quality and ensure safe care.</p>
+          <p>Dr. Shaik Nagoor Basha M.D.( General Medicine) D.M.( Gastroenterology) is exclusive advanced therapeutic Endoscopist and Hepatologist who has dedicated his service in excellence and world class advanced therapeutic endoscopic service to the people of central andhra especially the coastal belt.</p>
         </div>
       </div>
-      <!-- <div class="col-md-6">
-        <div class="col-md-6 col-sm-6 col-xs-6 block">
-          <div class="counter-item text-center">
-            <h5>Our Clients</h5>
-            <div class="timer" data-from="0" data-to="55" data-speed="5000" data-refresh-interval="50"></div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-6 col-xs-6">
-          <div class="counter-item text-center">
-            <h5>Projects completed</h5>
-            <div class="timer" data-from="0" data-to="88" data-speed="5000" data-refresh-interval="50"></div>
-          </div>
-        </div>
-      </div> -->
+      <div class="text-center" id="about_readmore">
+        <a type="button" class="view-more" href="#Professional_Appointments">Read More</a>
+      </div>
     </div>
   </div>
 </div>
+
 <div class="features" data-aos="fade-up">
   <div class="container">
     <div class="row">
@@ -267,39 +258,6 @@
   </div>
   <!-- /.container -->
 </div>
-<!-- <div class="testimonials" id="testimonials">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="text-center">
-          <h3>Our Testimonials</h3>
-        </div>
-      </div>
-      <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
-        <div id="owl-demo" class="owl-carousel owl-theme test">
-          <div class="item">
-            <p><sup><i class="fa fa-quote-left"></i></sup>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dui ante, ornare eget est in, ultricies rutrum elit.<sup><i class="fa fa-quote-right"></i></sup></p>
-            <div class="test-img"> <img src="images/TreatmentImages/DSC_0951.JPG"/>
-              <p><strong>Yogesh Singh</strong></p>
-            </div>
-          </div>
-          <div class="item">
-            <p><sup><i class="fa fa-quote-left"></i></sup>Proin tincidunt, orci vel volutpat blandit, purus turpis faucibus massa, sit amet posuere nunc diam in ex.<sup><i class="fa fa-quote-right"></i></sup></p>
-            <div class="test-img"> <img src="images/TreatmentImages/DSC_1018.JPG"/>
-              <p><strong>Brad Will</strong></p>
-            </div>
-          </div>
-          <div class="item">
-            <p><sup><i class="fa fa-quote-left"></i></sup>Morbi velit mauris, hendrerit in convallis vel, laoreet et orci. Integer semper, est vel congue suscipit, nisl nibh convallis lorem, sit amet faucibus purus lacus eu nulla. Sed nec blandit ante, sed semper tellus.<sup><i class="fa fa-quote-right"></i></sup></p>
-            <div class="test-img"> <img src="images/TreatmentImages/DSC_1035.JPG"/>
-              <p><strong>John Deo</strong></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
 <div class="call-to-action" id="gallery">
   <div class=" pad-t-50 pad-b-50">
     <h3 class="protfolio-gallery">Gallery</h3>
@@ -426,7 +384,8 @@
     </div>
   </div>
 </div>
-
+</div>
+</div>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -473,6 +432,146 @@
     </div>
   </div>
 </div>
+<div id="loader" class="">
+  <svg width="300" height="120" id="clackers">
+    <!-- Left arc path -->
+    <svg>
+      <path id="arc-left-up" fill="none" d="M 90 90 A 90 90 0 0 1 0 0"/>
+    </svg>
+    <!-- Right arc path -->
+    <svg>
+      <path id="arc-right-up" fill="none" d="M 100 90 A 90 90 0 0 0 190 0"/>
+    </svg>
+    
+    <text x="150" y="50" fill="#ffffff" font-family="Helvetica Neue,Helvetica,Arial" font-size="18"
+          text-anchor="middle">
+      L O A D I N G
+    </text>
+    <circle cx="15" cy="15" r="15">
+      <!-- I used a python script to calculate the keyPoints and keyTimes based on a quadratic function. -->
+      <animateMotion dur="1.5s" repeatCount="indefinite"
+        calcMode="linear"
+        keyPoints="0.0;0.19;0.36;0.51;0.64;0.75;0.84;0.91;0.96;0.99;1.0;0.99;0.96;0.91;0.84;0.75;0.64;0.51;0.36;0.19;0.0;0.0;0.05;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0"
+        keyTimes="0.0;0.025;0.05;0.075;0.1;0.125;0.15;0.175;0.2;0.225;0.25;0.275;0.3;0.325;0.35;0.375;0.4;0.425;0.45;0.475;0.5;0.525;0.55;0.575;0.6;0.625;0.65;0.675;0.7;0.725;0.75;0.775;0.8;0.825;0.85;0.875;0.9;0.925;0.95;0.975;1.0">
+        <mpath xlink:href="#arc-left-up"/>
+      </animateMotion>
+    </circle>
+    <circle cx="135" cy="105" r="15" />
+    <circle cx="165" cy="105" r="15" />
+    <circle cx="95" cy="15" r="15">
+      <animateMotion dur="1.5s" repeatCount="indefinite"
+        calcMode="linear"
+        keyPoints="0.0;0.0;0.05;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0.0;0.19;0.36;0.51;0.64;0.75;0.84;0.91;0.96;0.99;1.0;0.99;0.96;0.91;0.84;0.75;0.64;0.51;0.36;0.19;0.0"
+        keyTimes="0.0;0.025;0.05;0.075;0.1;0.125;0.15;0.175;0.2;0.225;0.25;0.275;0.3;0.325;0.35;0.375;0.4;0.425;0.45;0.475;0.5;0.525;0.55;0.575;0.6;0.625;0.65;0.675;0.7;0.725;0.75;0.775;0.8;0.825;0.85;0.875;0.9;0.925;0.95;0.975;1.0">
+        <mpath xlink:href="#arc-right-up"/>
+      </animateMotion>
+    </circle>
+  </svg>
+  
+</div>
+
+<div class="about hide" data-aos="zoom-in-up" data-aos-duration="800" id="Professional_Appointments">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h3>Professional Appointments</h3>
+      </div>
+      <div>
+        <p>Sept 2019 to Jan 2020 : Did fellowship in advanced endoscopy included ERCP& endoscopic ultrasonography (EUS)</p>
+        <p>Feb 2020 to AUG 2020: Consultant Gastroenterologist at, siddipet Gastro& liver hospital
+          Sept 2020 to till date: Assistant professor, Dept of Gastroenterology, Guntur, 
+          </p>
+          <p>
+            Government grand hospital, Guntur.
+          </p>
+          <p>
+            Consultant gastentrologist at Nuha hospital ( 8 to 6pm)
+          </p>
+          <p>
+            Consultant Gastroenterologist CarewellMax super speciality clinic ( 6 to 9 pm)
+          </p>
+      </div>
+      <div class="col-md-12 text-center">
+        <h3>Professional qualification</h3>
+      </div>
+      <div>
+        <p>
+          <h4 style="margin-bottom: 0;">Graduation: </h4>M.B.B.S (Bachelor of Medicine and Bachelor of Surgery): 2007 – 2013
+          <br>
+          NRI Medical College, Chinakakani, Andhra Pradesh, India 
+          <br>
+          Affiliated to Dr.NTR University of Health Sciences, Vijayawada, Andhra Pradesh, India. 
+        </p>
+        <p>
+          <h4 style="margin-bottom: 0;">Post - Graduation:</h4>
+          M.D. (Doctor of Medicine): 2013 – 2016 <br>
+          Rangaraya  Medical College, Kakinada, Andhra Pradesh, India <br>
+          Affiliated to Dr.NTR University of Health Sciences, Vijayawada, Andhra Pradesh, India.
+        </p>
+        <p>
+          <h4 style="margin-bottom: 0;">Superspeciality: </h4>
+          D.M (Doctorate in Medicine):2016–2019<br>
+          Andhra Medical college, Visakhapatnam , AndhraPradesh,India <br>
+          AffiliatedtoDr.NTRUniversityofHealthSciences,Vijayawada,AndhraPradesh,India.
+        </p>
+        <p>
+          <h4>Professional training:</h4>
+          Did advanced Endoscopy at Aryavart /Jaswanthi rai hospital under great professor Dr. Malay sharma<br>
+          Did advanced third space endoscopic procedures like POEM  in animal models under guidance Dr Hue Bing (China) <br>
+          Advanced endoscopy training: <br>
+          <ul>
+            <li>Performed more than 1000 advanced therapeutic endoscopic procedures including EUS/ERCP</li>
+            <li>Endoscopic Ultrasonography guided procedures like EUS Cystogastrostomy , Caeliac plexus neurolysis (CPN) for chronic pancreatitis</li>
+            <li>Eus guided (FNA/FNB)</li>
+          </ul>
+          Faculty/ Positions:
+          <ul>
+            <li>Life member of association of physician of India</li>
+            <li>Member in EUS- Egypt club since 2019</li>
+            <li>Member in Indian society of Gastroenterology- A.P. Chapter</li>
+            <li>Member in INASL</li>
+            <li>Member in Advanced endoscopy, Japan</li>
+            <li>Member in EUS - ERCP club Egypt/India</li>
+          </ul>
+          Achievements :
+          <ul>
+            <li>Gold Medal in talent test in Seventh Class</li>
+            <li>Got second prize Award paper presentations in APICON 2016</li>
+            <li>Selected for Zonal  level TYSA 2019 (East Zone)</li>
+          </ul>
+          Publications:
+          <ul>
+            <li>Jejjunogastric intussusception a rare cause of Upper GI bleeding - A case report</li>
+            <li>A rare case report of Hepatocellular carcinoma presenting as dysphagia</li>
+            <li>Strongyloides hyperinfection as a mimic of Inflammatory bowel disease – case report</li>
+            <li>A rare case report of NASH presenting as gross hepatomegaly</li>
+          </ul>
+          Conference Presentations
+          <ul>
+            <li>CTP VS MELD VS RENAL RESISTIVE INDEX score for assessment of prognosis in liver cirrohsis presented in TYSA 2019</li>
+            <li>Clinical Endoscopic and Histopathological features in differentiation of Crohn's disease and Intestinal Tuberculosis presented in AIG IBD SUMMIT 2018</li>
+            <li>Etiological and clinical profile of space occupying lesions of liver in cirrhosis in APASL 2018</li>
+            <li>
+              APICON 2016 ( National Conference)<br>
+              Clinical profile of Paraquat poisoning presented in teritiary care center - GOT SECOND PRIZE
+            </li>
+            <li>
+              WORLD HEALTHY CONFERENCE 2015<br>
+              PLATFORM PRESENTATION - A clinical profile of pesticide poisoning in East Godavari <br>
+              POSTER PRESENTATION - A rare case of Fascioscapulo humoral dystrophy
+            </li>
+            <li>
+              AP APICON 2014<br>
+              PLATFORM PRESENTATION - A correlational study of Low T3 syndrome in Congestive heart failure <br>
+              POSTER PRESENTATION - A rare case report of Falciparum malaria induced cardiomyopathy <br>
+              Lupus nephritis in a male with linear IgA dematosis - A rare case report
+            </li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 <footer>
   <div class="container">
     <div class="row">
@@ -490,6 +589,7 @@
     </div>
   </div>
 </footer>
+</body>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
@@ -539,8 +639,36 @@ $(document).ready(function() {
         $this.countTo(options);
       }
     });
+   
+    $("#about_readmore").click(function(){
+      $('#loader').fadeIn("fast", function(){        
+        $("#loader").fadeOut(4000);
+    });
+    //setTimeout('', 5000);
+    function stateChange() {
+    setTimeout(function () {
+    }, 3000);
 
+}
+$('#Professional_Appointments').removeClass('hide');
+      $('#main-content').addClass('hide');
+    });
 
+    $("#nav-home").click(function(){
+      $('#main-content').removeClass('hide');
+    });
+    $("#nav-about").click(function(){
+      $('#main-content').removeClass('hide');
+    });
+    $("#nav-work").click(function(){
+      $('#main-content').removeClass('hide');
+    });
+    $("#nav-gallery").click(function(){
+      $('#main-content').removeClass('hide');
+    });
+    $("#nav-contact").click(function(){
+      $('#main-content').removeClass('hide');
+    });
 	$(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
@@ -565,7 +693,14 @@ $(document).ready(function() {
 AOS.init({
   duration: 900,
 });
+function loader(){
+  var hidden = false;
 
+setInterval(function(){
+    document.getElementById("image").style.visibility= hidden ? "visible" : "hidden";
+    hidden = !hidden;
+},2000);
+}
 </script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>
