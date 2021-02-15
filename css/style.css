@@ -30,7 +30,7 @@ a {
 	background-color: RGBA(0, 0, 0, 0.48);
 }
 .banner {
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 	background-color: #645862;
 	background-image: url(/images/hospital-bg1.jpg);
 	background-position: top center;
@@ -44,7 +44,7 @@ a {
 }
 .bg-overlay {
 	padding: 230px 0 30px;
-	background-color: RGBA(15, 5, 20, 0.84);
+	/* background-color: RGBA(15, 5, 20, 0.84); */
 }
 .banner-text h2 {
 	font-size: 50px;
