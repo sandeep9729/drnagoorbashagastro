@@ -3,6 +3,9 @@ $("#work-gastric1").click(function () {
     if (!($('#endoscopy').hasClass('hide'))) {
       $('#endoscopy').addClass('hide');
     }
+    if (!($('#Professional_Appointments').hasClass('hide'))) {
+        $('#Professional_Appointments').addClass('hide');
+      }
     if (!($('#colonoscopy').hasClass('hide'))) {
       $('#colonoscopy').addClass('hide');
     }
@@ -29,6 +32,9 @@ $("#work-gastric1").click(function () {
     if (!($('#gastric_ballon').hasClass('hide'))) {
       $('#gastric_ballon').addClass('hide');
     }
+    if (!($('#Professional_Appointments').hasClass('hide'))) {
+        $('#Professional_Appointments').addClass('hide');
+      }
     if (!($('#colonoscopy').hasClass('hide'))) {
       $('#colonoscopy').addClass('hide');
     }
@@ -55,6 +61,9 @@ $("#work-gastric1").click(function () {
     if (!($('#gastric_ballon').hasClass('hide'))) {
       $('#gastric_ballon').addClass('hide');
     }
+    if (!($('#Professional_Appointments').hasClass('hide'))) {
+        $('#Professional_Appointments').addClass('hide');
+      }
     if (!($('#endoscopy').hasClass('hide'))) {
       $('#endoscopy').addClass('hide');
     }
@@ -81,6 +90,9 @@ $("#work-gastric1").click(function () {
     if (!($('#gastric_ballon').hasClass('hide'))) {
       $('#gastric_ballon').addClass('hide');
     }
+    if (!($('#Professional_Appointments').hasClass('hide'))) {
+        $('#Professional_Appointments').addClass('hide');
+      }
     if (!($('#endoscopy').hasClass('hide'))) {
       $('#endoscopy').addClass('hide');
     }
@@ -107,6 +119,9 @@ $("#work-gastric1").click(function () {
     if (!($('#gastric_ballon').hasClass('hide'))) {
       $('#gastric_ballon').addClass('hide');
     }
+    if (!($('#Professional_Appointments').hasClass('hide'))) {
+        $('#Professional_Appointments').addClass('hide');
+      }
     if (!($('#endoscopy').hasClass('hide'))) {
       $('#endoscopy').addClass('hide');
     }
@@ -136,6 +151,9 @@ $("#work-gastric1").click(function () {
     if (!($('#endoscopy').hasClass('hide'))) {
       $('#endoscopy').addClass('hide');
     }
+    if (!($('#Professional_Appointments').hasClass('hide'))) {
+        $('#Professional_Appointments').addClass('hide');
+      }
     if (!($('#colonoscopy').hasClass('hide'))) {
       $('#colonoscopy').addClass('hide');
     }
@@ -162,6 +180,9 @@ $("#work-gastric1").click(function () {
     if (!($('#endoscopy').hasClass('hide'))) {
       $('#endoscopy').addClass('hide');
     }
+    if (!($('#Professional_Appointments').hasClass('hide'))) {
+        $('#Professional_Appointments').addClass('hide');
+      }
     if (!($('#colonoscopy').hasClass('hide'))) {
       $('#colonoscopy').addClass('hide');
     }
@@ -185,6 +206,9 @@ $("#work-gastric1").click(function () {
     if (!($('#gastric_ballon').hasClass('hide'))) {
       $('#gastric_ballon').addClass('hide');
     }
+    if (!($('#Professional_Appointments').hasClass('hide'))) {
+        $('#Professional_Appointments').addClass('hide');
+      }
     if (!($('#endoscopy').hasClass('hide'))) {
       $('#endoscopy').addClass('hide');
     }
@@ -207,12 +231,15 @@ $("#work-gastric1").click(function () {
     $('#main-content').addClass('hide');
   });
 
-
+//Services section
   $("#work-gastric").click(function () {
     $('#gastric_ballon').removeClass('hide');
     if (!($('#endoscopy').hasClass('hide'))) {
       $('#endoscopy').addClass('hide');
     }
+    if (!($('#Professional_Appointments').hasClass('hide'))) {
+        $('#Professional_Appointments').addClass('hide');
+      }
     if (!($('#colonoscopy').hasClass('hide'))) {
       $('#colonoscopy').addClass('hide');
     }
@@ -242,6 +269,9 @@ $("#work-gastric1").click(function () {
     if (!($('#colonoscopy').hasClass('hide'))) {
       $('#colonoscopy').addClass('hide');
     }
+    if (!($('#Professional_Appointments').hasClass('hide'))) {
+        $('#Professional_Appointments').addClass('hide');
+      }
     if (!($('#fibroscan').hasClass('hide'))) {
       $('#fibroscan').addClass('hide');
     }
@@ -268,6 +298,9 @@ $("#work-gastric1").click(function () {
     if (!($('#endoscopy').hasClass('hide'))) {
       $('#endoscopy').addClass('hide');
     }
+    if (!($('#Professional_Appointments').hasClass('hide'))) {
+        $('#Professional_Appointments').addClass('hide');
+      }
     if (!($('#fibroscan').hasClass('hide'))) {
       $('#fibroscan').addClass('hide');
     }
@@ -300,6 +333,9 @@ $("#work-gastric1").click(function () {
     if (!($('#liverbiopsy').hasClass('hide'))) {
       $('#liverbiopsy').addClass('hide');
     }
+    if (!($('#Professional_Appointments').hasClass('hide'))) {
+        $('#Professional_Appointments').addClass('hide');
+      }
     if (!($('#EUS').hasClass('hide'))) {
       $('#EUS').addClass('hide');
     }
@@ -329,6 +365,9 @@ $("#work-gastric1").click(function () {
     if (!($('#EUS').hasClass('hide'))) {
       $('#EUS').addClass('hide');
     }
+    if (!($('#Professional_Appointments').hasClass('hide'))) {
+        $('#Professional_Appointments').addClass('hide');
+      }
     if (!($('#ERCP').hasClass('hide'))) {
       $('#ERCP').addClass('hide');
     }
@@ -346,6 +385,9 @@ $("#work-gastric1").click(function () {
     if (!($('#endoscopy').hasClass('hide'))) {
       $('#endoscopy').addClass('hide');
     }
+    if (!($('#Professional_Appointments').hasClass('hide'))) {
+        $('#Professional_Appointments').addClass('hide');
+      }
     if (!($('#colonoscopy').hasClass('hide'))) {
       $('#colonoscopy').addClass('hide');
     }
@@ -384,6 +426,9 @@ $("#work-gastric1").click(function () {
     if (!($('#EUS').hasClass('hide'))) {
       $('#EUS').addClass('hide');
     }
+    if (!($('#Professional_Appointments').hasClass('hide'))) {
+        $('#Professional_Appointments').addClass('hide');
+      }
     if (!($('#LAMS').hasClass('hide'))) {
       $('#LAMS').addClass('hide');
     }
@@ -401,6 +446,9 @@ $("#work-gastric1").click(function () {
     if (!($('#colonoscopy').hasClass('hide'))) {
       $('#colonoscopy').addClass('hide');
     }
+    if (!($('#Professional_Appointments').hasClass('hide'))) {
+        $('#Professional_Appointments').addClass('hide');
+      }
     if (!($('#fibroscan').hasClass('hide'))) {
       $('#fibroscan').addClass('hide');
     }
