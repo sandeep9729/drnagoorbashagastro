@@ -32,7 +32,7 @@ a {
 .banner {
 	/* background-attachment: fixed; */
 	background-color: #645862;
-	background-image: url(/images/hospital-bg1.jpg);
+	background-image: url(/images/hospital-bg1.svg);
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -269,7 +269,7 @@ a {
 .about h3 {
 	margin-top: 0px;
 	margin-bottom: 50px;
-	border-bottom: 2px solid#39cabb;
+	font-weight: bold;
 	display: inline-block;
 	line-height: 35px;
 }
@@ -432,3 +432,82 @@ nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active >
 	padding: 50px 0px;
 }
 }
+
+.main-timeline .timeline:nth-child(even) {
+    float: right;
+    margin: 0 0 0 5px;
+}
+
+.main-timeline .timeline {
+    width: 45.5%;
+    padding: 16px 0 24px;
+    margin: 0 5px 0 0;
+    float: left;
+    position: relative;
+}
+
+.main-timeline .timeline:nth-child(even) .timeline-content {
+    padding: 0 0 0 137px;
+    text-align: left;
+}
+
+.main-timeline .timeline-content {
+    color: #555;
+    padding: 0 137px 0 0;
+    display: block;
+    position: relative;
+    text-align: right;
+}
+
+.main-timeline .timeline-year {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 57px;
+    height: 60px;
+    width: 120px;
+    background: #39cabb;
+    position: absolute;
+    top: 0;
+    right: -60px;
+    z-index: 1;
+}
+
+.main-timeline .timeline:nth-child(even) .timeline-year {
+    right: auto;
+    left: -60px;
+}
+
+.main-timeline .description {
+    font-size: 13px;
+}
+
+/* 
+.main-timeline .timeline-year:after, .main-timeline .timeline-year:nth-child():before {
+    content: '';
+    background-color: #6b6b6b;
+    height: 3px;
+    width: 50px;
+    transform: translateY(-50%);
+    position: absolute;
+    left: -50px;
+    top: 50%;
+}
+
+.main-timeline .timeline-year:after {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+
+.main-timeline .timeline-year:after, .main-timeline .timeline-year:before {
+    content: '';
+    background-color: #6b6b6b;
+    height: 3px;
+    width: 50px;
+    transform: translateY(-50%);
+    position: absolute;
+    left: -50px;
+    top: 50%;
+} */
