@@ -63,12 +63,12 @@
     bottom: 225px;
     position: relative;
     right: 0;
-    left: -125px;
+    left: -212px;
     opacity: 1;
 }
 
 .floating-wpp-position {
-    height: 20px; 
+    height: 20px;
     left: 90%;
 }
 
@@ -84,10 +84,10 @@
         opacity: 1;
     }
     .floating-wpp-position {
-        height: 20px; 
+        height: 20px;
         left: 75%;
     }
-  }
+}
 
 .floating-wpp .floating-wpp-popup .floating-wpp-message {
     background-color: white;
@@ -99,7 +99,7 @@
     transition: opacity 0.2s;
 }
 
-.floating-wpp-head > span {
+.floating-wpp-head>span {
     font-size: 17px;
 }
 
@@ -129,7 +129,7 @@
 
 .floating-wpp .floating-wpp-input-message textarea {
     border: 1px solid #ccc;
-    color:black !important ;
+    color: black !important;
     border-radius: 4px;
     box-shadow: none;
     padding: 8px;
