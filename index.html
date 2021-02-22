@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="assets/css/jquery.datetimepicker.min.css">
     <link rel="stylesheet" href="assets/css/linearicons.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./whatsapp/floating-wpp.css">
+
 </head>
 <body>
     <!-- Preloader Starts -->
@@ -125,7 +127,7 @@
                     <div class="single-feature text-center item-padding">
                         <img src="assets/images/feature1.png" alt="">
                         <h3>advance technology</h3>
-                        <p class="pt-3">Modern societies reap great benefits from technological advancements. The healthcare sector is no different.</p>
+                        <p class="pt-3">Modern societies reap great benefits from technological advancements. We are no different.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -337,6 +339,7 @@
                     <h2>Reach out on</h2>
                     <span>(+91) – 9854757999</span>
                     <p class="pt-3">Please feel free to contact me for emergency cases.</p>
+                    
                 </div>
             </div>
         </div>
@@ -400,25 +403,11 @@
         </div>
     </section>
     <!-- News Area Starts -->
+
+    <div id="myButton" class="floating-wpp-position"></div>
     
     <!-- Footer Area Starts -->
     <footer class="footer-area footer-section-padding">
-        <div class="footer-widget">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-5 col-lg-6">
-                        <div class="single-widget-home mb-5 mb-lg-0">
-                            <h3 class="mb-4">Drop your mail</h3>
-                            <form action="#">
-                                <input type="email" placeholder="Your email here" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email here'" required>
-                                <button type="submit" class="template-btn">subscribe now</button>
-                            </form>
-                        </div>
-                    </div>
-                
-                </div>
-            </div>
-        </div>
         <div class="footer-copyright">
             <div class="container">
                 <div class="row">
@@ -436,7 +425,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All 
     </footer>
     <!-- Footer Area End -->
 
-
     <!-- Javascript -->
     <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
 	<script src="assets/js/vendor/bootstrap-4.1.3.min.js"></script>
@@ -446,6 +434,24 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All 
     <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
     <script src="assets/js/vendor/superfish.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="whatsapp/jquery-3.3.1.min.js"></script>
+    <script src="whatsapp/floating-wpp.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('#myButton').floatingWhatsApp({
+                phone: '+918801153044',
+                popupMessage: 'Hello, How can we help you?',
+                message: "",
+                showPopup: true,
+                showOnIE: false,
+                headerTitle: 'Welcome!',
+                headerColor: '#075E54',
+                backgroundColor: '#075E54',
+                buttonImage: '<img src="whatsapp/whatsappimg.png" />'
+            });
+        });
+    </script>
 
 </body>
 </html>
